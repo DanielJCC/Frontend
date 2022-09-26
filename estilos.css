@@ -1,0 +1,142 @@
+body{
+    font-family: sans-serif;
+    margin: 0%;
+    background-color: #bdbdbd;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    background-color: #262626;
+    align-items: center;
+    padding: 10px;
+}
+
+#logoYnombre{
+    display: flex;
+    align-items: center;
+}
+
+#logoYnombre img{
+    height: 50px;
+    margin-right: 10px;
+}
+
+#logoYnombre h1{
+    color: white;
+}
+
+#menu a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+#menu a:hover{
+    color: greenyellow
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+}
+
+#barraLateral{
+    max-width: 16%;
+    margin: 15px;
+    background-color: #262626;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#foto{
+    height: 200px;
+    border: 1px solid greenyellow;
+    border-radius: 50px;
+}
+
+#logosRS img{
+    height: 40px;
+    margin: 5px;
+}
+
+#barraLateral h2{
+    color: greenyellow;
+}
+
+#barraLateral p{
+    color: white;
+}
+
+#secciones{
+    margin: 15px;
+}
+
+#secciones p{
+    text-align: left;
+    color: black;
+    font-size: 20px;
+}
+.sections *{
+    margin: 0px;
+}
+.sections{
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.sections h3{
+    font-size: 30px;
+    color: #144D05;
+}
+
+#seccion1 img{
+    height: 200px;
+}
+
+#seccion1 *,#seccion2 *,#seccion3 *,#seccion4 *{
+    margin: 10px;
+}
+
+#tablaHab{
+    width: 95%;
+    border-radius: 10px;
+    border-spacing: 5px;
+}
+
+th, td{
+    text-align: left;
+    vertical-align:middle;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+th{
+    background-color: #262626;
+    color: greenyellow
+}
+
+td{
+    background-color: whitesmoke;
+}
+
+.nivel{
+    width: 6%;
+    text-align: center;
+}
+
+#error{
+    color: red;
+}
+
+footer{
+    background-color: #262626;
+    height: 50px;
+}
